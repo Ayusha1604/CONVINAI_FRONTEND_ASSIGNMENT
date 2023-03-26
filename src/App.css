@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.btn {
+  margin: 10px 5px;
+  padding: 10px;
+  background: #030c16;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+}
+.btn:hover {
+  background: gray;
+}
+
+h2,
+p {
+  font-family: sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-data {
+  border-style: solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 50px;
+  display: flex;
+  box-shadow: 0 4px 23px rgb(0 0 0 / 10%);
+  border-color: #fff;
+}
+
+.card-data-details {
+  margin: 30px;
+  text-align: left;
+}
+
+.card-data-avatar {
+  width: auto;
+  height: 160px;
+  max-width: 155px;
+  border-radius: 100px;
+}
